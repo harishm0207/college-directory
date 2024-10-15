@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #002433;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .sidebar {
+            background-color: #45b6fe;
+            width: 250px;
+            padding: 15px;
+            color: white;
+            height: 100vh;
+        }
+        .main-content {
+            flex-grow: 1;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .user-info {
+            background-color: #e9f6ff;
+            padding: 10px;
+            border-left: 5px solid #45b6fe;
+        }
+        .user-info h3 {
+            margin: 0;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #002433;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Your Admin Dashboard</h1>
+</header>
+
+<div class="container">
+    <div class="sidebar">
+        <h2>Menu</h2>
+        <ul>
+           <li>Home</li></a>
+            <li>Profile</li>
+            <li>Settings</li>
+            <li>Logout</li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <div class="user-info">
+        </div>
+        <p>This is your dashboard where you can view and manage your data.</p>
+    </div>
+</div>
+
+<div class="footer">
+    <p>Dashboard © 2024</p>
+</div>
+
+</body>
+</html>
